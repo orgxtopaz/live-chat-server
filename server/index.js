@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-orgxtopaz.herokuapp.com/",
+    origin: "https://chat-orgxtopaz.herokuapp.com",
     methods: ["GET", "POST"],
   },
 });
